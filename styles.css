@@ -1,0 +1,71 @@
+body{
+  background-color: #0a0a23;
+  text-align:center;
+  color:white;
+  font-size:3rem;
+}
+
+h1{
+  margin:15px 0 20px;
+}
+
+.btn{
+  cursor: pointer;
+  width:200px;
+  margin:20px;
+  padding:30px;
+  background-color: yellow;
+  border-color: yellow;
+  font-size: 2rem;
+}
+
+.btn:hover{
+  background-color: linear-gradient(#d7d0bd, #514e49);
+}
+
+.rules-container{
+  padding:10px 0;
+  margin:auto;
+  border: 5px solid yellow;
+  background-color: white;
+  color:#0a0a23
+}
+
+.rules-container ul{
+  list-style-type: none;
+}
+
+.rules-container p{
+  margin:20px 0;
+}
+
+@media (min-width: 760px) {
+  .rules-container {
+    width: 60%;
+  }
+}
+
+.score-container{
+  display:flex;
+  justify-content: space-around;
+  margin:40px 0;
+  font-size: 3.2rem;
+}
+
+.score {
+  font-weight: 500;
+}
+
+.results-container {
+  font-size: 1.3rem;
+  margin: 15px 0;
+}
+
+#winner-msg {
+  margin-top: 25px;
+}
+
+#reset-game-btn {
+  display: none;
+  margin: 20px auto;
+}
